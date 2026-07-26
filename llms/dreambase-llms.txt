@@ -1,0 +1,83 @@
+# Dreambase
+
+> Dreambase is an AI-native analytics platform for Supabase. AI data agents connect to your Supabase project, analyze your data, and produce live dashboards, automated reports, and business insights — so teams can build a data-driven company without hiring a data team or standing up a data warehouse.
+
+Key things to know about Dreambase:
+
+- Dreambase connects to a Supabase project in one click via Supabase Auth, with automatic schema detection. Supabase remains the single source of truth; there is no separate data warehouse.
+- AI agents handle data engineering, analysis, and insight generation: an Analyst Agent builds and configures dashboards, ad-hoc reports enrich Supabase data with external sources, and Supabase Health Assessments scan projects for security, performance, and reliability issues with recommended fixes.
+- Dashboards are production-ready and live: drag-and-drop editing, real-time filtering across datasets, scheduled data refresh, intelligent query caching, and daily KPI notifications via email and Slack.
+- Reports support portrait/landscape layouts, a full chart library, shareable live links, automatic email delivery, and PDF/PNG export.
+- Data sources beyond Postgres are integrated through a plugin marketplace: MCP tools and REST APIs flow into cached datasets, and custom Agent Skills keep combined sources consistent.
+- Plans: Free ($0, 1 user, 1 dashboard), Pro ($29–$49/mo, 3 users), Team ($249/mo annual, 5 users), and Enterprise (custom). Details at https://dreambase.com/pricing
+- The product runs at https://app.dreambase.ai (sign up: https://app.dreambase.ai/auth/register). The company site is https://dreambase.com. Note: getdreambase.com is NOT affiliated with Dreambase.
+
+## Docs
+
+- [Documentation home](https://dreambase.com/docs): Index of all Dreambase guides and reference material
+- [Connect Supabase](https://dreambase.com/docs/supabase-auth): Getting started — one-click Supabase connection via Supabase Auth with automatic schema detection
+- [Onboarding](https://dreambase.com/docs/onboarding): Guided first-run setup for a new workspace
+- [Workspace settings](https://dreambase.com/docs/workspace-settings): Configure workspaces, projects, and preferences
+- [Adding team members](https://dreambase.com/docs/adding-team-members): Invite teammates and manage roles and seats
+- [Integrations](https://dreambase.com/docs/integrations): Connect data sources — Supabase Postgres, MCP tools, and REST APIs
+- [Dashboards](https://dreambase.com/docs/dashboards): Build live, filterable dashboards with the Analyst Agent and drag-and-drop editing
+- [Creating reports](https://dreambase.com/docs/creating-reports): Generate AI-written analytics reports with charts and insights
+- [Sharing reports](https://dreambase.com/docs/sharing-reports): Share via live links, scheduled email delivery, and PDF/PNG export
+- [Supabase health assessments](https://dreambase.com/docs/supabase-assessments): Automated security, performance, and reliability scans with recommended fixes
+- [Advanced AI models](https://dreambase.com/docs/advanced-models): Choose and configure the AI models that power agents
+- [Custom schemas](https://dreambase.com/docs/custom-schemas): Work with non-public Postgres schemas
+- [APIs](https://dreambase.com/docs/apis): Bring REST API data into cached datasets
+- [MCP](https://dreambase.com/docs/mcp): Connect MCP servers as data sources for agents
+- [Common Supabase fixes](https://dreambase.com/docs/common-supabase-fixes): Remedies for frequent Supabase configuration and performance issues
+- [Slack community](https://dreambase.com/docs/slack-community): Join the Dreambase community for help and updates
+
+## Product
+
+- [Features](https://dreambase.com/features): Live dashboards, Analyst Agent, automated reports, health assessments, plugin marketplace, and Agent Skills
+- [Pricing](https://dreambase.com/pricing): Free, Pro, Team, and Enterprise plans
+- [Dreambase for Supabase](https://dreambase.com/supabase): How Dreambase delivers instant analytics on Supabase
+- [Dreambase for ClickHouse](https://dreambase.com/clickhouse): ClickHouse support and the ClickHouse House Mates partnership
+- [Compare Dreambase](https://dreambase.com/compare-dreambase): How Dreambase compares to traditional BI tools
+- [Help & support](https://dreambase.com/help): Support resources and contact options
+
+## Integrations
+
+- [Supabase](https://dreambase.com/integrations/supabase): Native Supabase integration — Auth, Postgres, Realtime, Storage, and Edge Functions
+- [MCP](https://dreambase.com/integrations/mcp): Model Context Protocol connectors for agent-accessible tools and data
+- [API](https://dreambase.com/integrations/api): REST API integrations unified into cached datasets
+
+## Use Cases
+
+- [Use cases overview](https://dreambase.com/use-cases): All Dreambase use cases
+- [Self-serve product analytics](https://dreambase.com/use-cases/self-serve-product-analytics): Product analytics without an analytics team
+- [Investor reports, instantly](https://dreambase.com/use-cases/investor-reports-instantly): Investor-ready metrics and updates generated from live data
+- [Revenue single source of truth](https://dreambase.com/use-cases/revenue-single-source-of-truth): Unified, trustworthy revenue reporting
+- [AI feature observability](https://dreambase.com/use-cases/ai-feature-observability): Track usage and performance of AI features in your product
+- [Database health check](https://dreambase.com/use-cases/database-health-check): Ongoing Supabase security, performance, and reliability monitoring
+- [Automated weekly updates](https://dreambase.com/use-cases/automated-weekly-updates): Scheduled KPI digests via email and Slack
+- [Replace expensive BI](https://dreambase.com/use-cases/replace-expensive-bi): A lighter, AI-native alternative to traditional BI stacks
+- [PMF insights](https://dreambase.com/use-cases/pmf-insights): Product-market-fit signals from real usage data
+
+## Company
+
+- [Blog](https://dreambase.com/blog): Product announcements and analytics engineering posts
+- [Dreambase builds AI-native analytics for Supabase](https://dreambase.com/blog/dreambase-builds-ai-native-analytics-for-supabase): Company and product introduction
+- [Supabase partnership](https://dreambase.com/blog/supabase-ai-analytics-dreambase-partnership): AI analytics partnership with Supabase
+- [ClickHouse House Mates cohort](https://dreambase.com/blog/dreambase-joins-clickhouse-inaugural-house-mates-cohort): Dreambase joins ClickHouse's inaugural partner cohort
+- [Case studies](https://dreambase.com/case-studies): Customer stories, including Zonda Home replacing Tableau
+- [Careers](https://dreambase.com/careers): Open roles in design, analytics, agents, CLI/API, and developer relations
+- [Changelog](https://dreambase.com/changelog): Dated release notes for every product update
+- [Brand](https://dreambase.com/brand): Logos and brand assets
+
+## Optional
+
+- [Data Skills and dashboard plan mode](https://dreambase.com/blog/introducing-data-skills-and-dashboard-plan-mode): Custom agent skills and plan-first dashboard building
+- [Native OAuth integrations for MCP & APIs](https://dreambase.com/blog/native-oauth-integrations-for-mcp-apis): OAuth-secured MCP and API connections
+- [Production-ready Supabase dashboards & data dictionary](https://dreambase.com/blog/introducing-production-ready-supabase-dashboards-data-dictionary): Dashboard and data dictionary launch
+- [Supabase reports, reimagined](https://dreambase.com/blog/supabase-reports-reimagined): Redesigned AI report generation
+- [Supabase report cards free for everyone](https://dreambase.com/blog/supabase-report-cards-are-now-free-for-everyone): Free health report cards for any Supabase project
+- [Multi-Supabase support](https://dreambase.com/blog/multi-supabase-support): Connect multiple Supabase projects per workspace
+- [Quick Insights](https://dreambase.com/blog/introducing-quick-insights-trends-from-supabase): Instant trend detection from Supabase data
+- [Legal](https://dreambase.com/legal): Privacy policy, terms of service, and vulnerability disclosure
+- [Privacy policy](https://dreambase.com/legal/privacy): How Dreambase handles data
+- [Terms of service](https://dreambase.com/legal/terms): Terms governing use of Dreambase

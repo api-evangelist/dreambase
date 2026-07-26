@@ -1,0 +1,54 @@
+generated: '2026-07-18'
+method: searched
+source: https://dreambase.com/changelog
+scheme: date-based
+current: '2026-05-05'
+entries:
+- date: '2026-05-05'
+  title: Optimized Supabase Schema Scanning
+  highlights: Enhanced schema discovery with cached updates and improved issue detection
+  breaking: false
+- date: '2026-04-28'
+  title: Improved UX with New Homepage Planning Chat
+  highlights: Redesigned onboarding, dashboard, navigation, and chat experience
+  breaking: false
+- date: '2026-03-06'
+  title: Report Layouts, API & MCP Updates, Dashboard Context
+  highlights: New report formats, email summaries, and query improvements
+  breaking: false
+- date: '2026-02-16'
+  title: Dashboards & Data Catalog
+  highlights: Largest update ever, with overhauled navigation and product experience
+  breaking: false
+- date: '2025-12-12'
+  title: Free Report Cards & Pro Trials
+  highlights: Free Supabase health reports and Pro subscription trials introduced
+  breaking: false
+- date: '2025-11-20'
+  title: Shareable Reports, Improved Project Wizard, GPT-5.1, Gemini 3
+  highlights: Public report sharing, model upgrades, enhanced project wizard
+  breaking: false
+- date: '2025-11-03'
+  title: Quick Insights & Trends, Updated Workspace Overview
+  highlights: New chart creation tools and refreshed overview page
+  breaking: false
+- date: '2025-10-09'
+  title: Update Project Planning, Multiple Schema Support & Onboarding Tour
+  highlights: Enhanced context planning and multi-schema capability
+  breaking: false
+- date: '2025-09-25'
+  title: Sonnet 4.5 Advanced Chat & Data Lists
+  highlights: Advanced chat mode for Pro+ users and data list features
+  breaking: false
+- date: '2025-08-20'
+  title: AI SDK v5, GPT-5 & Reasoning
+  highlights: Platform upgrade improving report generation and agent reliability
+  breaking: false
+- date: '2025-07-24'
+  title: MCP Tool Optimization
+  highlights: Optimized agent outputs and enterprise data management preview
+  breaking: false
+- date: '2025-07-14'
+  title: New Report UX
+  highlights: Streamlined report generation interface focused on speed and clarity
+  breaking: false

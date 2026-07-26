@@ -1,7 +1,13 @@
 aid: dreambase
 name: Dreambase
-description: Dreambase is a company surfaced as a portfolio company of felicis and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Dreambase is an AI-native analytics platform for Supabase. AI data agents connect to
+  a Supabase project in one click via Supabase Auth, automatically detect the schema, and produce
+  live dashboards, automated reports, and business insights without a separate data warehouse or a
+  dedicated data team. An Analyst Agent builds and configures dashboards, ad-hoc reports enrich
+  Supabase data with external sources, and Supabase Health Assessments scan projects for security,
+  performance, and reliability issues with recommended fixes. Data sources beyond Postgres flow in
+  through a plugin marketplace of MCP tools and REST APIs unified into cached datasets. Founded in
+  2024 and backed by a seed round led by Felicis with participation from Supabase executives.
 url: https://raw.githubusercontent.com/api-evangelist/dreambase/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +15,31 @@ x-backed-by:
 - felicis
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://framerusercontent.com/images/fgMgSw80nMFDR7BquNzNXt5ALC8.png
 tags:
 - Company
+- Analytics
+- Business Intelligence
+- Supabase
+- Postgres
+- Dashboards
+- Data
+- Artificial Intelligence
+- Reporting
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +47,41 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: Documentation
+  url: https://dreambase.com/docs
+- type: GettingStarted
+  url: https://dreambase.com/docs/supabase-auth
+- type: Blog
+  url: https://dreambase.com/blog
+- type: ChangeLog
+  url: https://dreambase.com/changelog
+- type: ChangeLog
+  name: Dreambase changelog (structured)
+  url: changelog/dreambase-changelog.yml
+- type: Pricing
+  url: https://dreambase.com/pricing
+- type: SignUp
+  url: https://app.dreambase.com/auth/register
+- type: Login
+  url: https://app.dreambase.com/auth/login
+- type: Support
+  url: https://dreambase.com/help
+- type: TermsOfService
+  url: https://dreambase.com/legal/terms
+- type: PrivacyPolicy
+  url: https://dreambase.com/legal/privacy
+- type: LLMsTxt
+  url: llms/dreambase-llms.txt
+- type: VulnerabilityDisclosure
+  url: security/dreambase-vulnerability-disclosure.yml
+- type: Security
+  url: https://dreambase.com/legal/vulnerability
+- type: DomainSecurity
+  url: security/dreambase-domain-security.yml
 - type: Website
   url: https://dreambase.com
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
