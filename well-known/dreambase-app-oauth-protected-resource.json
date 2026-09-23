@@ -1,0 +1,1 @@
+{"resource":"https://app.dreambase.com/mcp","authorization_servers":["https://app.dreambase.com"],"scopes_supported":["account","workspaces:read","dashboards:read","datasets:read","datasets:write","connections:read","connections:write","health-reports:read","health-reports:write","skills:read","skills:write"],"bearer_methods_supported":["header"]}
