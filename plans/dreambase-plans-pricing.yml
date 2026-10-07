@@ -1,0 +1,46 @@
+# Pricing transcribed from the provider's own page — see provenance. Numbers are quoted, not derived.
+generated: '2026-10-07'
+method: searched
+source: https://dreambase.com/pricing
+sources:
+- https://dreambase.com/pricing
+provenance:
+  tool: all/0-working/economics/harvest_pricing.py
+  run: 20261007T104522
+  grounding: every price_text was found verbatim in the fetched page text
+audience: business-product
+pricing_basis: tiered-subscription
+delivery:
+  delivery: managed
+  method: page
+  read: '2026-10-07'
+  managed_tier: PRO
+published: true
+note: PRO shows both $29 and $49 for yearly/monthly toggle; $29 captured as annual rate.
+plan_count: 4
+currency: USD
+plans:
+- name: FREE
+  price_text: Start Free
+  period: none
+  included_quota: 1 user, 1 dashboard, 1 Supabase schema
+- name: PRO
+  price_text: $29
+  price: 29
+  currency: USD
+  period: month
+  unit: per month (annual)
+  included_quota: 3 users, 5 Live Dashboards
+- name: TEAM
+  price_text: $249
+  price: 249
+  currency: USD
+  period: month
+  unit: per month (annual only)
+  included_quota: 5 users, 15 Live Dashboards
+- name: ENTERPRISE
+  price_text: Contact Us
+  period: none
+  included_quota: custom & promo pricing available
+rate_limit_statements:
+- 14 day free trial on all paid plans
